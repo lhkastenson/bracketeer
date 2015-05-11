@@ -11,7 +11,7 @@ node_modules
 .cache
 
 # logs
-derby.log
+*.log
 
 # eclipse conf file
 .settings
@@ -32,6 +32,10 @@ dist
 test-output
 
 # sbt
+.cache
+.history
+.lib/
+dist/*
 target
 lib_managed
 src_managed
@@ -53,6 +57,10 @@ project/plugins/project
 *.ipr
 *.iws
 .idea
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
 
 # Pax Runner (for easy OSGi launching)
 runner
