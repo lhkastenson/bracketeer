@@ -33,7 +33,8 @@ object LiftProjectBuild extends Build {
         "com.foursquare"    %% "rogue-lift"                    % "2.5.1" intransitive(),
         "com.foursquare"    %% "rogue-index"                   % "2.5.1" intransitive(),
         "org.eclipse.jetty" % "jetty-server"                   % Ver.jetty,
-        "org.eclipse.jetty" % "jetty-webapp"                   % Ver.jetty
+        "org.eclipse.jetty" % "jetty-webapp"                   % Ver.jetty,
+        "org.scalaj"        %% "scalaj-http"                   % "1.1.4"
       ) ++
       provided(
         "org.webjars"       % "jquery"                         % "2.1.3",
